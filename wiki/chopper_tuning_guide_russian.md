@@ -4,8 +4,8 @@
 ### 1. Установка скрипта калибровки на хост принтера. (последует перезагрузка клиппера!)
 ```
    cd ~
-   git clone https://github.com/MRX8024/chopper-resonance-tuner
-   bash ~/chopper-resonance-tuner/install.sh
+   git clone https://github.com/shinanca/vc4-chopper-resonance-tuner
+   bash ~/vc4-chopper-resonance-tuner/install.sh
 ```
 Если все прошло успешно, вы увидите у себя в домашней директории принтера (~/printer_data/config) появившуюся папку - `adxl_results`, в которую после будут помещаться результаты калибровок, а так же уже доступный макрос из панели макросов на главной странице веб интерфейса.
 А если по каким то причинам нет, то установите [вручную](/wiki/manual_install_ru.md).
